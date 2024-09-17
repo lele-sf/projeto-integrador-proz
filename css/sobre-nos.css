@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+
+.nossa-historia, .nosso-objetivo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nossa-historia-imagem{    
+    object-fit: cover;
+    height: 100%;
+}
+
+.assinatura-newsletter-email{
+    /* background-color: #f0f0f0; */
+    /* padding: 10px;
+    display: flex; */
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+    margin: 0;
+    
+}
+
+.assinatura-newsletter-email input[type="text"] {
+    flex: 1; /* Ocupa o espaço restante */
+    border: none; /* Sem borda */
+    padding: 10px; /* Espaçamento interno */
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    /* width: 400px; */
+    
+  }
+  
+.btn-seta {
+    background-color: #333; /* Cor de fundo do botão */
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+  }
+
+.assinatura-newsletter-rodape{
+    font-size: 10px;
+}
