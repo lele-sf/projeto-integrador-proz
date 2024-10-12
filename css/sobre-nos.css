@@ -197,8 +197,7 @@ section{
     box-sizing: border-box;
     margin-top: 10px;
   }
-    margin-top: 10px;
-  }
+  
 
   .nosso-objetivo-texto{
     display: flex;
@@ -236,9 +235,6 @@ section{
 .assinatura-email input{
     width: 600px;
     /* max-width: 750px;    */
-.assinatura-email input{
-    width: 600px;
-    /* max-width: 750px;    */
     border: none; /* Sem borda */
     outline: none;
     box-shadow: none;
@@ -261,6 +257,4 @@ section{
 .assinatura-newsletter-rodape{
     font-size: 12px;
 }
-
-
 
