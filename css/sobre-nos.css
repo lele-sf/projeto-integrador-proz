@@ -10,12 +10,21 @@ body{
 
 section{
     width: 1440px;
+    width: 1440px;    
+    background-color: #A5CCC1;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    margin: 0 auto;    
+}
+
+section{
+    width: 1440px;
 }
 
 .titulo-sobre-nos h1, p{
     margin: 20px 0px 20px 0px;
 }
-
 
 .titulo-sobre-nos h1{
     font-weight: 500;
@@ -26,7 +35,6 @@ section{
     font-style: italic;
     font-size: 15px;
     font-weight: 500;
-
 }
 
 /* Estilização carrossel */
@@ -134,17 +142,13 @@ section{
 
 .nossa-historia h2, .nosso-objetivo h2{
     font-weight: 500;
-
     font-size: 22px;
-
     display: flex;
 }
 
 .nossa-historia p, .nosso-objetivo p{
-
     font-weight: 500;
     font-size: 15px;
-
     display: flex;
     /* align-self: center; */
 }
@@ -176,9 +180,24 @@ section{
     display: flex;
     flex-direction: row;    
     gap: 20px;    
+    padding: 20px;
+    line-height: 35px;
+}
+
+.nossa-historia-imagem img{
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .nosso-objetivo{
+    display: flex;
+    flex-direction: row;    
+    gap: 20px;    
     box-sizing: border-box;
     margin-top: 10px;
   }
+  
 
   .nosso-objetivo-texto{
     display: flex;
@@ -197,13 +216,11 @@ section{
 
   .inscricao-newsletter h1{
     font-weight: 500;
-
     font-size: 22px;
   }
   .inscricao-newsletter p{
     font-weight: 500;
     font-size: 15px;
-
   }
     
 .formulario-email{
@@ -222,9 +239,7 @@ section{
     outline: none;
     box-shadow: none;
     padding: 20px 24px;
-
     font-size: 15px;
-
     background-color: #f0f0f0;
     border-radius: 25px;
 }
@@ -232,7 +247,6 @@ section{
 .botao-enviar{
     position: absolute;
     cursor: pointer;
-
     right: 430px;   
     border: none;    
     background-color: #F4CECE;
@@ -242,6 +256,5 @@ section{
 
 .assinatura-newsletter-rodape{
     font-size: 12px;
-
 }
 
