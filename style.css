@@ -1,0 +1,83 @@
+section div p {
+    
+    font-family: sans-serif;
+    color: black;
+    font-size: 50px;
+    
+}
+p, span, a {
+    font-family: sans-serif;
+    color: black;
+    font-size: 90px;
+}
+
+
+  
+ 
+    
+    body {
+        
+        font-family: Arial, sans-serif;
+        background-color: #a5ccc1;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom:5px;
+        color: #555;
+    }
+
+    input, textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #0a0a0a;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #0d0e0d;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #218838;
+    }
+    .div
+    {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+    }
