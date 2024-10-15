@@ -171,8 +171,8 @@ section{
     flex-direction: row;    
     gap: 20px;    
     box-sizing: border-box;
-    margin-top: 10px;
-  }
+    margin-top: 10px;   
+}
 
   .nosso-objetivo-texto{
     display: flex;
@@ -228,7 +228,7 @@ section{
     border-radius: 40px;
     padding: 7px;
     width: 40px;
-    height: 40px;
+    height: 40px;   
 } 
 
 .assinatura-newsletter-rodape{
