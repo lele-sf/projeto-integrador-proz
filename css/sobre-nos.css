@@ -225,8 +225,10 @@ section{
     right: 430px;   
     border: none;    
     background-color: #F4CECE;
-    border-radius: 50px;
-    padding: 10px;
+    border-radius: 40px;
+    padding: 7px;
+    width: 40px;
+    height: 40px;
 } 
 
 .assinatura-newsletter-rodape{
