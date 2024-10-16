@@ -1,0 +1,45 @@
+h1{
+    /* Fundo da página */
+body {
+    background-color: #EDF4F2;
+}
+
+/* Título (h1) */
+h1 {
+    color: #4154D;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+/* Galeria de imagens */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1200px;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Estilo ao passar o mouse sobre as imagens */
+img:hover {
+    transform: scale(1.1);
+    border: 2px solid #FACECE;
+}
+
+/* Footer */
+footer {
+    background-color: #A5CCC1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+    
+}
