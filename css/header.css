@@ -63,6 +63,7 @@ header{
     width: 150px;
     height: 10px;
     margin-left: 5px;
+    color: black;
 }
 
 .bolsa-compra img{
@@ -80,7 +81,19 @@ header{
     font-size: 20px; font-weight: 500;
 }
 
+.nav-pag a:visited {
+    color: inherit; /* Ou escolha a cor que preferir */
+  }
+
 .nav-pag a {
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    color: black;  
+    position: relative;  
 }
+
+
+.nav-pag a:hover {
+    background-color: #F4CECE;  
+    
+  }
