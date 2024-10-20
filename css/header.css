@@ -14,10 +14,36 @@ header{
 
 .header-nav {
     display: flex;
+    width: 100%;
     flex-direction: row;
     padding: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
     box-sizing: border-box;
+}
+
+.nav-column-1{
+    display: flex;
+    width: 33.33%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-column-2{
+    display: flex;
+    width: 33.33%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-column-3{
+    display: flex;
+    width: 33.33%;
+    flex-direction: row;
+    gap: 64px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .logotipo img{    
@@ -25,26 +51,24 @@ header{
 }
 
 .buscar-produto{    
-    font-size: 15px; 
+    font-size: 13px; 
     font-weight: 500;    
     position: relative;
     margin-top: 7px;
+    align-items: center;
 }
 
+
 .buscar-produto .pesquisar{
-    width: 300px;
-    height: 30px;
-    padding-left: 30px;
-            
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    width: 450px;
+    padding-left: 48px;
 }
 
 .buscar-produto .lupa{
     position: absolute;
-    margin-top: 6px;    
-    top: 20%;
-    transform: translateY(-50%);
-    width: 35px;
-    height: 35px;
 }
 
 .cadastrar a{
@@ -84,3 +108,4 @@ header{
     text-decoration: none;
     text-transform: uppercase;    
 }
+

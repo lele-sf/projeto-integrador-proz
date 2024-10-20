@@ -1,218 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café e Patesserie | Home</title>
+    <title>Cafeteria e Patisserie</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-    <header>
-        <div class="logotipo">
-            <img src="images/sobre-nos/logotipo.png" alt="logotipo da cafeteria">
-        </div>
+<body>
 
-        <div class="pesquisar-produtos">
-            <input type="text" placeholder="Busque seu produto aqui:">
+    <header>
+        <div class="header-nav">
+            <div class="nav-column-1">
+                <div class="logotipo">
+                    <a href="home.html">
+                        <img src="images/header/logo.svg" alt="logotipo da cafeteria">
+                    </a>
+                </div>
             </div>
 
-        <div class="cadastrar-email">
-            <h2>Olá!</h2>
-            <h3>Entre ou cadastre-se</h3>
-            <a href="">
-                <img src="" alt="bolsa de compra">
-            </a>
+            <div class="nav-column-2">
+                <div class="buscar-produto">
+                    <img src="images/header/pesquisa.svg" alt="Lupa" class="lupa">
+                    <input type="text" class="pesquisar" placeholder="Busque seu produto aqui:">
+                </div>
+            </div>
+            
+            <div class="nav-column-3">
+                <div class="cadastrar">
+                    <a href="">
+                        <img src="images/header/octicon_person-24.svg" alt="octicon_person-24">
+                            <div class="cadastrar-email">
+                                <p class="text-ola"><strong>Olá!</strong></p>
+                                <p class="text-cadastrar">Entre ou cadastre-se: </p>
+                            </div>
+                    </a>
+                </div>
+            
+                <div class="bolsa-compra">
+                        <a href="menu.html">
+                            <img src="images/header/Vector.svg" alt="bolsa de compra">
+                        </a>
+                </div>
+            </div>
         </div>
 
-        <div>
+        <div class="nav-pag">
             <ul>
-                <li>HOME</li>
-                <li>CARDÁPIO</li>
-                <li>SOBRE NÓS</li>
-                <li>GALERIA</li>
-                <li>CONTATO</li>
+                <li><a href="home.html">home</a></li>
+                <li><a href="menu.html">cardápio</a></li>
+                <li><a href="sobre.html">sobre nós</a></li>
+                <li><a href="galeria.html">galeria</a></li>
+                <li><a href="contato.html">contato</a></li>
             </ul>
         </div>
+
+        <div class="container-banner" id="banner"><img src="images/home/banner-home.webp"></div>
     </header>
 
-<section id="hero">
-    <header class="header">
+    <section id="hero">
+        <header class="header">
+            <div class="container" id="icons">
 
-        <div class="container-2" id="banners">
-        </div>
+                <span class="icones">
+                    <img src="images/icon-delivery.svg" alt="Delivery">
+                    <span class="text-icons">
+                        <p>RECEBA O SEU PEDIDO EM ATÉ 30 MINUTOS</p>
+                    </span>
+                </span>
+
+                <span class="icones">
+                    <img src="images/icon-pix.svg" alt="Pix"> 
+                    <span class="text-icons">
+                        <p>PAGUE COM PIX E RECEBA 5% DE DESCONTO</p>
+                    </span>
+                </span>
+
+                <span class="icones">
+                    <img src="images/icon-clientes.svg" alt="Clientes">
+                    <span class="text-icons">
+                        <p>SATISFAÇÃO GARANTIDA PARA NOSSOS CLIENTES</p>
+                    </span>    
+                </span>
+
+                <span class="icones">
+                    <img src="images/icon-agenda.svg" alt="Agendamento">
+                    <span class="text-icons">
+                        <p>AGENDE SUA ENTREGA COM A GENTE</p>
+                    </span>      
+                </span>
+
+            </div>
+        </header>
+
+        <section id="nossos-produtos">
+            <div class="container">
+                <spam class="text-box">
+                    <h1>Nossos produtos</h1>
+                    <p>Há mais de 10 anos, a Café e Patesserie se dedica a transformar cada visita em uma experiência memorável. Com uma paixão inabalável por criar sabores irresistíveis.</p>
+                    <a href="#" class="btn" id="ver-todos">Ver todos</a>
+                </spam>
+
+                <div id="produtos">
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-1-prod"><img src="images/menu/cafe-americano.jpg"></span>
+                        <h3>Café</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-2-prod"><img src="images/menu/cha-camomila.jpg"></span>
+                        <h3>Chás</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-3-prod"><img src="images/menu/cappuccino.jpg"></span>
+                        <h3>Café gourmet</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-4-prod"><img src="images/menu/bolo-chocolate.jpeg"></span>
+                        <h3>Bolos</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-5-prod"><img src="images/menu/cupcake.webp"></span>
+                        <h3>Cupcakes</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-6-prod"><img src="images/menu/brownie.jpg"></span>
+                        <h3>Brownies</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-7-prod"><img src="images/menu/cookie.jpg"></span>
+                        <h3>Cookies</h3>
+                        </spam>
+                    </spam></a>
+
+                    <a href="#"><spam class="produto">
+                        <span class="img-prod" id="img-8-prod"><img src="images/menu/coxinha.jpg"></span>
+                        <h3>Salgados</h3>
+                        </spam>
+                    </spam></a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="presente">
+            <div class="container-2" id="presentes">
+                <spam class="text-box">
+                    <h1>Surpreenda quem você ama</h1>
+                    <p>Presenteie que você ama com um kit ou presente do Café e Patesserie.</p>
+                    <a href="#" class="btn-2" id="aproveite">Aproveitar</a>
+                </spam>
+            </div>
+        </section>
+
+        <section id="especiais">
+
+            <div class="container">
+                <spam class="text-box">
+                    <h1>Está em dúvida sobre o que escolher?</h1>
+                    <p>Se você está indeciso, não se preocupe! Temos uma seleção perfeita para qualquer ocasião especial ou momento de celebração.</p>
+                    <a href="#" class="btn" id="ver-todos">Ver todos</a>
+                </spam>
+
+                <div id="produtos-especiais">
+
+                    <a href="#"><spam class="produto-especial">
+                        <span class="prod-especial" id="esp-1-prod"><img src="images/menu/cheesecake-morango.webp"></span>
+                        <h3>Nossos queridinhos</h3>
+                        </spam></a>
+
+                    <a href="#"><spam class="produto-especial">
+                        <span class="prod-especial" id="esp-2-prod"><img src="images/menu/combo-brownie.webp"></span>
+                        <h3>Combos</h3>
+                        </spam></a>
+
+                    <a href="#"><spam class="produto-especial">
+                        <span class="prod-especial" id="esp-3-prod"><img src="images/menu/croissant-salgado.jpg"></span>
+                        <h3>Promoções do dia</h3>
+                        </spam></a>
+                </div>
+
+            </div>
+
+        </section>
         
-        <div class="container" id="icons">
-            <span class="icones">
-                <img src="assets/icon-delivery.svg" alt="Delivery">
-                <span class="text-icons">
-                    <p>RECEBA O SEU PEDIDO EM ATÉ 30 MINUTOS</p>
-                </span>
-            </span>
-
-            <span class="icones">
-                <img src="assets/icon-pix.svg" alt="Pix"> 
-                <span class="text-icons">
-                    <p>PAGUE COM PIX E RECEBA 5% DE DESCONTO</p>
-                </span>
-            </span>
-
-            <span class="icones">
-                <img src="assets/icon-clientes.svg" alt="Clientes">
-                <span class="text-icons">
-                    <p>SATISFAÇÃO GARANTIDA PARA NOSSOS CLIENTES</p>
-                </span>    
-            </span>
-
-            <span class="icones">
-                <img src="assets/icon-agenda.svg" alt="Agendamento">
-                <span class="text-icons">
-                    <p>AGENDE SUA ENTREGA COM A GENTE</p>
-                </span>      
-            </span>
-
-        </div>
-    </header>
-
-    <section id="nossos-produtos">
-        <div class="container">
-            <spam class="text-box">
-                <h1>Nossos produtos</h1>
-                <p>Há mais de 10 anos, a Café e Patesserie se dedica a transformar cada visita em uma experiência memorável. Com uma paixão inabalável por criar sabores irresistíveis.</p>
-                <a href="#" class="btn" id="ver-todos">Ver todos</a>
-            </spam>
-
-            <div id="produtos">
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-1-prod"></span>
-                    <h3>Café</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-2-prod"></span>
-                    <h3>Chás</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-3-prod"></span>
-                    <h3>Café gourmet</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-4-prod"></span>
-                    <h3>Bolos</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-5-prod"></span>
-                    <h3>Cupcakes</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-6-prod"></span>
-                    <h3>Brownies</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-7-prod"></span>
-                    <h3>Cookies</h3>
-                    </spam>
-                </spam></a>
-
-                <a href="#"><spam class="produto">
-                    <span class="img-prod" id="img-8-prod"></span>
-                    <h3>Salgados</h3>
-                    </spam>
-                </spam></a>
-
-            </div>
-
-        </div>
     </section>
-
-    <section id="presente">
-        <div class="container-2" id="presentes">
-            <spam class="text-box">
-                <h1>Surpreenda quem você ama</h1>
-                <p>Presenteie que você ama com um kit ou presente do Café e Patesserie.</p>
-                <a href="#" class="btn-2" id="aproveite">Aproveitar</a>
-            </spam>
-        </div>
-    </section>
-
-    <section id="especiais">
-
-        <div class="container">
-            <spam class="text-box">
-                <h1>Está em dúvida sobre o que escolher?</h1>
-                <p>Se você está indeciso, não se preocupe! Temos uma seleção perfeita para qualquer ocasião especial ou momento de celebração.</p>
-                <a href="#" class="btn" id="ver-todos">Ver todos</a>
-            </spam>
-
-            <div id="produtos-especiais">
-
-                <a href="#"><spam class="produto-especial">
-                    <span class="prod-especial" id="esp-1-prod"></span>
-                    <h3>Nossos queridinhos</h3>
-                    </spam></a>
-
-                <a href="#"><spam class="produto-especial">
-                    <span class="prod-especial" id="esp-2-prod"></span>
-                    <h3>Combos</h3>
-                    </spam></a>
-
-                <a href="#"><spam class="produto-especial">
-                    <span class="prod-especial" id="esp-3-prod"></span>
-                    <h3>Promoções do dia</h3>
-                    </spam></a>
-            </div>
-
-        </div>
-
-    </section>
-    
-    </section>
-
-    <footer>
-        <div class="footer-container">
-            <div class="footer-logo">
-                <img src="images/logo-white.svg" class="svg-black" alt="Cafeteria e Patisserie Logo">
-            </div>
-            <div class="footer-column">
-                <h3>Nossos produtos</h3>
-                <ul>
-                    <li><a href="#">Café Espresso</a></li>
-                    <li><a href="#">Cappuccino</a></li>
-                    <li><a href="#">Chá Gelado</a></li>
-                    <li><a href="#">Bolo de Cenoura</a></li>
-                    <li><a href="#">Brownie de Chocolate</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Institucional</h3>
-                <ul>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Nossa História</a></li>
-                    <li><a href="#">Missão e Valores</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Trabalhe Conosco</a></li>
-                </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Atendimento</h3>
-                <ul>
-                    <li><a href="#">Fale Conosco</a></li>
-                    <li><a href="#">Central de Atendimento</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">Política de Trocas</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
 </body>
 </html>
