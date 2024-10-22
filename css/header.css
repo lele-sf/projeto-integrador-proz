@@ -16,7 +16,7 @@ header{
     display: flex;
     flex-direction: row;
     padding: 40px;
-    justify-content: space-between;
+    justify-content: space-around;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,7 @@ header{
 }
 
 .buscar-produto{    
-    font-size: 13px; 
+    font-size: 15px; 
     font-weight: 500;    
     position: relative;
     margin-top: 7px;
@@ -33,17 +33,18 @@ header{
 
 .buscar-produto .pesquisar{
     width: 300px;
+    height: 30px;
     padding-left: 30px;
             
 }
 
 .buscar-produto .lupa{
     position: absolute;
-    margin-top: 4px;    
+    margin-top: 6px;    
     top: 20%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 .cadastrar a{
@@ -83,4 +84,3 @@ header{
     text-decoration: none;
     text-transform: uppercase;    
 }
-
