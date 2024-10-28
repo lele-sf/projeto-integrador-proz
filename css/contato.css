@@ -19,11 +19,6 @@ p, span, a {
         
         font-family: Arial, sans-serif;
         background-color: #A5CCC1;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 100vh;
     }
 
