@@ -2,14 +2,16 @@ body{
     text-align: center;
     width: 1440px;    
     background-color: #A5CCC1;
-    /* width: 100%;
-    height: 100%; */
-    display: flex;
+    width: 100%;
+    /* height: 100%; */
+    /* display: flex; */
     margin: 0 auto;    
 }
 
 section{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; 
 }
 
 .titulo-sobre-nos h1, p{
@@ -170,9 +172,24 @@ section{
     display: flex;
     flex-direction: row;    
     gap: 20px;    
+    padding: 20px;
+    line-height: 35px;
+}
+
+.nossa-historia-imagem img{
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .nosso-objetivo{
+    display: flex;
+    flex-direction: row;    
+    gap: 20px;    
     box-sizing: border-box;
     margin-top: 10px;   
 }
+
 
   .nosso-objetivo-texto{
     display: flex;
