@@ -16,7 +16,7 @@ body{
 
    
     h2 {
-       font-size:;
+       font-size:2.5;
        font-weight: 300;
         text-align: center;
         color: #070000;
@@ -76,5 +76,10 @@ p,h1{
         background-color: #218838;  
     }
     
+    .erro {
+        color: red;
+        font-size: 0.9em;
+        margin-top: 5px;
+    }
     
     
