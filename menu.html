@@ -10,6 +10,24 @@
 </head>
 
 <body>
+     <!--Início do carrinho -->    
+<div id="itemProduto" class="item">
+    <div class="item-content">
+        <span class="close">𒉽</span>
+        <img id="produtoImg" class="carrinho-img" src="" alt="Produto">
+        <h2 id="produtoNome"></h2>
+        <p id="produtoDescricao"></p>
+        <p id="produtoPreco"></p>
+        <button id="btnAddToCart" class="btn-add-to-cart">Adicionar</button>
+    </div>
+</div>
+
+<div id="cart" class="cart"> 
+    <h2>Seu Carrinho</h2> <!-- Itens do carrinho serão inseridos aqui --> 
+    <button id="btnCheckout">Finalizar Compra</button> 
+</div>
+    <!-- Fim do carrinho --> 
+
     <!-- header -->
      <header></header>
     <div class="container">
@@ -409,6 +427,7 @@
     <footer></footer>
     <script src="js/script.js"></script> 
     <script src="js/menu.js"></script>
+    <script src="js/carrinho-menu.js"></script>
 </body>
 
 </html>
