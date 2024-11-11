@@ -33,7 +33,7 @@ function validarFormulario(event) {
 
     
     // Valida o campo Telefone
-    if (!telefone.value.match(/^\(\d{2}\) \d{4,5}-\d{4}$/)) {
+    if (!telefone.value.match) {
         mostrarErro(telefone, "Por favor, insira um telefone válido. Ex: (99) 99999-9999");
         formularioValido = false;
     }
