@@ -1,13 +1,3 @@
-/* h1  font-size: 24px; font-weight: 500;*/
-/* h2  font-size: 22px; font-weight: 500;*/
-/* p   font-size: 15px; font-weight: 500;*/
-
-/* Cores do projeto
-#EDF4F2 (header)
-#F4CECE (surpreenda quem vc ama)
-#A5CCC1 (background)
-#41514D (footer) */
-
 header{
     background-color: #EDF4F2;
 }
@@ -50,22 +40,31 @@ header{
     height: 35px;
 }
 
-.cadastrar a{
+.cadastrar a {
     display: flex;
-    text-decoration: none; 
-    flex: 1;
-    max-width: 200px; 
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    max-width: 300px;
 }
 
-.cadastrar img{
-    width: 40px;
-    height: 40px;    
+.cadastrar img {
+    width: 50px;
+    height: 50px;
 }
 
-.cadastrar-email{
-    font-size: 13px; 
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 10px;
+}
+
+.text-ola, .text-cadastrar {
+    font-size: 13px;
     font-weight: 500;
-    margin-left: 5px;
+    margin: 0; 
+    padding: 0;
 }
 
 .bolsa-compra {
@@ -94,13 +93,15 @@ header{
 
 .nav-pag a {
     text-decoration: none;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    color: black;    
 }
 
 /* Media Queries */
 @media (max-width: 768px) {
     .header-nav {
         flex-direction: column;
+        align-items: center;
     }
 
     .buscar-produto {

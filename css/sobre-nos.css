@@ -19,8 +19,8 @@ section{
 }
 
 .titulo-sobre-nos h1{
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 700;
+    font-size: 35px;
 }
 
 .italico{
@@ -216,18 +216,12 @@ section{
   }
     
 .formulario-email{
-    /* width: 100%;
-    max-width: 550px;    */
-    position: relative;
-    display: flex;  
-    align-items: center;
-    justify-content: center;
+    position: relative;    
 }
 
 .assinatura-email input{
-    width: 600px;
-    /* max-width: 750px;    */
-    border: none; /* Sem borda */
+    width: 600px;    
+    border: none; 
     outline: none;
     box-shadow: none;
     padding: 20px 24px;
@@ -238,17 +232,27 @@ section{
   
 .botao-enviar{
     position: absolute;
-    cursor: pointer;
-    right: 430px;   
+    cursor: pointer;           
     border: none;    
+    top: 20%;    
+    transform: translateY(-50%);
+} 
+
+.botao-enviar img{
+    position: fixed;
     background-color: #F4CECE;
     border-radius: 40px;
     padding: 7px;
     width: 40px;
-    height: 40px;   
-} 
+    left:  540px;
+}
 
 .assinatura-newsletter-rodape{
     font-size: 12px;
 }
 
+@media (max-width: 768px) {
+    .nossa-historia-imagem img, .nosso-objetivo-imagem img{
+        width: 300px;             
+      }
+}
