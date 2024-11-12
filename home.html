@@ -11,11 +11,17 @@
 </head>
 <body>
 
-    <!-- header -->
     <header></header>
 
-    <div class="container-banner" id="banner"><img src="images/home/banner-home.webp"></div>
-    </header>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="images/home/banner-home.webp" alt="Banner 1" class="carousel-image">
+            <img src="images/home/banners-home-2.webp" alt="Banner 2" class="carousel-image">
+        </div>
+        <button class="carousel-button left" onclick="prevSlide()"><img src="images/prev.svg"></button>
+        <button class="carousel-button right" onclick="nextSlide()"><img src="images/next.svg"></button>
+        <div class="carousel-indicators" id="indicators"></div>
+    </div>
 
     <section id="hero container">
         <header class="header">
@@ -157,8 +163,9 @@
         </section>
         
     </section>
-    <!-- footer -->
+
     <footer></footer>
     <script src="js/script.js"></script> 
+    <script src="js/home.js"></script>
 </body>
 </html>
