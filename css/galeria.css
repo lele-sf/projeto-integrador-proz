@@ -1,0 +1,43 @@
+/* Fundo da página */
+body {
+    background-color: #A5CCC1;
+}
+
+.main-content {
+    display: flex; /* Adicionado para centralizar o conteúdo */
+    flex-direction: column; /* Mantém o layout em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width: 100%;
+}
+
+/* Título (h1) */
+h1 {
+    color: #4154D;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+/* Galeria de imagens */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Mantém a centralização das imagens */
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.gallery img {
+    width: 200px; /* Define uma largura fixa para todas as imagens */
+    height: 200px; /* Define uma altura fixa para todas as imagens */
+    object-fit: cover; /* Garante que a imagem se ajuste dentro do espaço sem distorção */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Estilo ao passar o mouse sobre as imagens */
+.gallery img:hover {
+    transform: scale(1.1);
+    border: 2px solid #FACECE;
+}
